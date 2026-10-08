@@ -105,6 +105,10 @@ python3 tools/build-translations.py
 
 WordPress loads the matching `.mo` automatically from the site locale.
 
+## Public listing
+
+Shortcode jobs are sorted by **`published_at` descending** (newest first) in `Sha_Factorial_Jobs_Service::get_jobs_for_display()` via `sha_factorial_jobs_sort_jobs_by_published_at_desc()`.
+
 ## Next SDD Phase
 
 Implementation in progress → `/sdd-verify sha-factorial-jobs` when API keys available
