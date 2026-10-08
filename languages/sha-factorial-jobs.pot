@@ -1,0 +1,730 @@
+# Copyright (C) 2026 Shawellness
+# This file is distributed under the same license as the SHA Factorial Jobs plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: SHA Factorial Jobs 0.5.17\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sha-factorial-jobs\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-08T17:01:58+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: sha-factorial-jobs\n"
+
+#. Plugin Name of the plugin
+#: sha-factorial-jobs.php
+#: includes/admin/class-settings-page.php:589
+msgid "SHA Factorial Jobs"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: sha-factorial-jobs.php
+msgid "https://shawellness.com"
+msgstr ""
+
+#. Description of the plugin
+#: sha-factorial-jobs.php
+msgid "Displays Factorial HR job postings for SHA Wellness (Spain and Mexico)."
+msgstr ""
+
+#. Author of the plugin
+#: sha-factorial-jobs.php
+msgid "Shawellness"
+msgstr ""
+
+#: includes/admin/class-connection-tester.php:39
+#: includes/admin/class-connection-tester.php:75
+msgid "Insufficient permissions."
+msgstr ""
+
+#: includes/admin/class-connection-tester.php:46
+#: includes/api/class-job-repository.php:42
+#: includes/public/class-shortcodes.php:152
+msgid "Invalid region."
+msgstr ""
+
+#. translators: %d: number of cache entries removed
+#: includes/admin/class-connection-tester.php:85
+#, php-format
+msgid "Cache cleared: %d entries removed."
+msgstr ""
+
+#: includes/admin/class-connection-tester.php:141
+msgid "Successfully connected to Factorial."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:38
+#: includes/admin/class-settings-page.php:39
+#: includes/admin/class-settings-page.php:200
+msgid "Factorial Jobs"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:94
+msgid "Testing connection…"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:95
+msgid "Connection verified"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:96
+msgid "Could not connect"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:97
+msgid "Clearing cache…"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:98
+msgid "Shortcode copied"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:99
+#: includes/admin/class-settings-page.php:561
+msgid "Copy"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:100
+#: includes/admin/class-settings-page.php:348
+msgid "Test connection"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:101
+msgid "published job postings"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:102
+msgid "API"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:103
+#: includes/admin/class-settings-page.php:428
+msgid "Restore defaults"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:104
+#: includes/admin/class-settings-page.php:371
+msgid "Restore fields"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:105
+msgid "Values restored. Save changes to apply them."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:180
+msgid "Settings saved successfully."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:205
+msgid "OpenSSL is not available. API keys are stored with basic encoding. Enable OpenSSL in PHP for better security."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:209
+msgid "Settings sections"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:211
+msgid "Connections"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:214
+msgid "Display"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:218
+msgid "Styles"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:222
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:225
+msgid "About"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:240
+msgid "Cache"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:241
+msgid "Reduces calls to the Factorial API. Clear the cache after publishing new job postings."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:243
+msgid "TTL (seconds)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:246
+msgid "Clear cache"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:256
+msgid "Default shortcode values"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:257
+msgid "Only published job postings from Factorial are shown."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:260
+msgid "Layout"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:262
+msgid "List"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:263
+msgid "Grid"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:267
+msgid "Show filters"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:284
+msgid "Save changes"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:303
+#: includes/class-activator.php:22
+#: includes/helpers.php:855
+#: templates/partials/filters.php:58
+msgid "Spain"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:303
+#: includes/class-activator.php:27
+#: includes/helpers.php:856
+#: templates/partials/filters.php:59
+msgid "Mexico"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:316
+msgid "Not tested"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:316
+msgid "No API key"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:322
+msgid "Label"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:327
+msgid "API Key"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:329
+msgid "Paste your Factorial API key"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:330
+msgid "Show/hide"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:334
+msgid "Leave empty to keep the current key."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:340
+msgid "Active connection"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:367
+msgid "Job card fields"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:368
+msgid "Enable or disable which Factorial data appears on each job posting. The title is always visible."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:398
+msgid "Preview (3 sample job postings)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:424
+msgid "Frontend styles"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:425
+msgid "Customize cards, filters, and list spacing. Changes apply to listings and the detail view."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:509
+msgid "Preview (filters + 3 job postings)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:525
+msgid "Spain listing"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:529
+msgid "Mexico listing"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:533
+msgid "Both regions with filters"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:544
+msgid "Team ID (API)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:545
+msgid "Location ID (API)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:546
+msgid "Legal entity ID (API)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:555
+msgid "Ready-to-copy shortcodes"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:556
+msgid "Each job detail opens on the same page using URL parameters (?sfj_job=ID&sfj_region=es|mx). No separate shortcode is required."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:569
+msgid "Attributes (Factorial API mapping)"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:571
+msgid "Attribute"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:571
+msgid "Values"
+msgstr ""
+
+#. translators: %s: plugin version
+#: includes/admin/class-settings-page.php:594
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:600
+msgid "Custom integration between Factorial HR and WordPress for SHA Wellness. Displays published job postings on your site via shortcodes, with configurable cache, frontend filters, and field and style customization from this panel."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:603
+msgid "Connection to the Factorial API by region."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:604
+msgid "Job listing and detail on the same page."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:605
+msgid "Configurable visible fields, layout, filters, and styles."
+msgstr ""
+
+#. translators: 1: developer name, 2: client name
+#: includes/admin/class-settings-page.php:612
+#, php-format
+msgid "Developed by %1$s for %2$s."
+msgstr ""
+
+#: includes/api/class-api-client.php:33
+msgid "No API key configured for this connection."
+msgstr ""
+
+#: includes/api/class-api-client.php:64
+msgid "Empty response from Factorial. Check that the API key matches the production environment."
+msgstr ""
+
+#: includes/api/class-api-client.php:74
+msgid "Factorial response is not valid JSON."
+msgstr ""
+
+#: includes/api/class-api-client.php:80
+msgid "Factorial API error."
+msgstr ""
+
+#: includes/api/class-job-repository.php:58
+#: includes/api/class-job-repository.php:103
+msgid "API key not configured."
+msgstr ""
+
+#: includes/api/class-job-repository.php:80
+msgid "This job posting is not available."
+msgstr ""
+
+#: includes/api/class-lookup-repository.php:44
+msgid "Invalid lookup type."
+msgstr ""
+
+#: includes/helpers.php:49
+msgid "Accent color"
+msgstr ""
+
+#: includes/helpers.php:50
+msgid "Apply button and highlighted elements."
+msgstr ""
+
+#: includes/helpers.php:57
+msgid "Text on accent"
+msgstr ""
+
+#: includes/helpers.php:58
+msgid "Apply button text."
+msgstr ""
+
+#: includes/helpers.php:65
+msgid "Link color"
+msgstr ""
+
+#: includes/helpers.php:66
+msgid "View detail and back to listing."
+msgstr ""
+
+#: includes/helpers.php:73
+msgid "Badge background"
+msgstr ""
+
+#: includes/helpers.php:74
+msgid "Category and remote badge."
+msgstr ""
+
+#: includes/helpers.php:81
+msgid "Badge text"
+msgstr ""
+
+#: includes/helpers.php:88
+msgid "Secondary text"
+msgstr ""
+
+#: includes/helpers.php:89
+msgid "Meta, dates, and filters."
+msgstr ""
+
+#: includes/helpers.php:96
+msgid "Container card"
+msgstr ""
+
+#: includes/helpers.php:97
+msgid "Disable to remove the box around each job posting (no border, background, or shadow)."
+msgstr ""
+
+#: includes/helpers.php:103
+msgid "Card background"
+msgstr ""
+
+#: includes/helpers.php:110
+msgid "Card border"
+msgstr ""
+
+#: includes/helpers.php:117
+#: includes/helpers.php:218
+msgid "Border radius"
+msgstr ""
+
+#: includes/helpers.php:127
+msgid "Card padding"
+msgstr ""
+
+#: includes/helpers.php:137
+msgid "Card shadow"
+msgstr ""
+
+#: includes/helpers.php:146
+msgid "Gap between cards"
+msgstr ""
+
+#: includes/helpers.php:156
+msgid "Title size"
+msgstr ""
+
+#: includes/helpers.php:166
+msgid "Button style"
+msgstr ""
+
+#: includes/helpers.php:167
+msgid "Disable for a flat select with only a bottom border."
+msgstr ""
+
+#: includes/helpers.php:173
+msgid "Label size"
+msgstr ""
+
+#: includes/helpers.php:174
+msgid "Text above the select (Category, Workplace type…)."
+msgstr ""
+
+#: includes/helpers.php:185
+msgid "Select size"
+msgstr ""
+
+#: includes/helpers.php:186
+msgid "Dropdown text and padding."
+msgstr ""
+
+#: includes/helpers.php:197
+msgid "Select background"
+msgstr ""
+
+#: includes/helpers.php:204
+msgid "Select border"
+msgstr ""
+
+#: includes/helpers.php:211
+msgid "Label text"
+msgstr ""
+
+#: includes/helpers.php:228
+msgid "Gap between filters"
+msgstr ""
+
+#: includes/helpers.php:238
+msgid "Bottom margin"
+msgstr ""
+
+#: includes/helpers.php:239
+msgid "Space between filters and listing."
+msgstr ""
+
+#: includes/helpers.php:256
+msgid "Colors"
+msgstr ""
+
+#: includes/helpers.php:257
+msgid "Card"
+msgstr ""
+
+#: includes/helpers.php:258
+msgid "Filters"
+msgstr ""
+
+#: includes/helpers.php:259
+msgid "Spacing and typography"
+msgstr ""
+
+#: includes/helpers.php:422
+#: templates/partials/filters.php:37
+msgid "Category"
+msgstr ""
+
+#: includes/helpers.php:423
+msgid "Badge with the professional area (Factorial enum)."
+msgstr ""
+
+#: includes/helpers.php:427
+#: templates/partials/filters.php:38
+msgid "Contract type"
+msgstr ""
+
+#: includes/helpers.php:428
+msgid "Permanent, temporary, internship, etc."
+msgstr ""
+
+#: includes/helpers.php:432
+#: templates/partials/filters.php:39
+msgid "Workplace type"
+msgstr ""
+
+#: includes/helpers.php:433
+msgid "On-site, remote, or hybrid."
+msgstr ""
+
+#: includes/helpers.php:437
+#: templates/partials/filters.php:40
+msgid "Schedule"
+msgstr ""
+
+#: includes/helpers.php:438
+msgid "Full-time or part-time."
+msgstr ""
+
+#: includes/helpers.php:442
+#: templates/job-single.php:98
+#: templates/partials/job-card.php:131
+msgid "Remote"
+msgstr ""
+
+#: includes/helpers.php:443
+msgid "Label when the job allows remote work."
+msgstr ""
+
+#: includes/helpers.php:447
+#: templates/partials/filters.php:34
+msgid "Location"
+msgstr ""
+
+#: includes/helpers.php:448
+msgid "Name resolved from Factorial locations."
+msgstr ""
+
+#: includes/helpers.php:452
+msgid "Team"
+msgstr ""
+
+#: includes/helpers.php:453
+msgid "Department or team (teams lookup)."
+msgstr ""
+
+#: includes/helpers.php:457
+#: templates/partials/filters.php:35
+msgid "Legal entity"
+msgstr ""
+
+#: includes/helpers.php:458
+msgid "Useful on pages with region=\"all\"."
+msgstr ""
+
+#: includes/helpers.php:462
+msgid "Salary"
+msgstr ""
+
+#: includes/helpers.php:463
+msgid "Respects Factorial hide_salary."
+msgstr ""
+
+#: includes/helpers.php:467
+msgid "Published date"
+msgstr ""
+
+#: includes/helpers.php:468
+msgid "When the job posting was published."
+msgstr ""
+
+#: includes/helpers.php:472
+msgid "View detail link"
+msgstr ""
+
+#: includes/helpers.php:473
+msgid "Only when the job posting has a description."
+msgstr ""
+
+#: includes/helpers.php:477
+msgid "Apply button"
+msgstr ""
+
+#: includes/helpers.php:478
+msgid "Public job posting URL."
+msgstr ""
+
+#: includes/helpers.php:581
+msgid "Senior Physiotherapist"
+msgstr ""
+
+#: includes/helpers.php:582
+msgid "Full job description with requirements, benefits, and hiring process."
+msgstr ""
+
+#: includes/helpers.php:602
+msgid "Clinical Nurse"
+msgstr ""
+
+#: includes/helpers.php:603
+msgid "Clinical profile for an integrative medicine unit."
+msgstr ""
+
+#: includes/helpers.php:623
+msgid "Sports Nutritionist"
+msgstr ""
+
+#: includes/helpers.php:650
+msgid "SHA Wellness Clinic, Alicante"
+msgstr ""
+
+#: includes/helpers.php:651
+msgid "SHA Mexico, CDMX"
+msgstr ""
+
+#: includes/helpers.php:654
+msgid "Therapies & Wellness"
+msgstr ""
+
+#: includes/helpers.php:655
+msgid "Sports Nutrition"
+msgstr ""
+
+#: includes/helpers.php:658
+msgid "SHA Spain"
+msgstr ""
+
+#: includes/helpers.php:659
+msgid "SHA Mexico"
+msgstr ""
+
+#. translators: 1: min salary, 2: max salary, 3: period
+#: includes/helpers.php:909
+#, php-format
+msgid "%1$s – %2$s (%3$s)"
+msgstr ""
+
+#. translators: 1: salary amount, 2: period
+#: includes/helpers.php:918
+#, php-format
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: includes/public/class-shortcodes.php:142
+msgid "Missing sfj_region parameter in the URL."
+msgstr ""
+
+#: includes/public/class-shortcodes.php:161
+msgid "This job posting does not belong to this page."
+msgstr ""
+
+#: includes/public/class-shortcodes.php:230
+msgid "No job postings available at this time."
+msgstr ""
+
+#: templates/job-single.php:66
+#: templates/job-single.php:183
+msgid "Back to listing"
+msgstr ""
+
+#: templates/job-single.php:179
+#: templates/partials/job-card.php:217
+msgid "Apply"
+msgstr ""
+
+#: templates/jobs-list.php:54
+msgid "No job postings available."
+msgstr ""
+
+#: templates/partials/filters.php:33
+msgid "Region"
+msgstr ""
+
+#: templates/partials/filters.php:36
+msgid "Area / Department"
+msgstr ""
+
+#: templates/partials/filters.php:113
+msgid "All"
+msgstr ""
+
+#: templates/partials/filters.php:128
+#: templates/partials/layout-toggle.php:11
+msgid "Actions"
+msgstr ""
+
+#: templates/partials/filters.php:131
+msgid "Clear filters"
+msgstr ""
+
+#: templates/partials/job-card.php:212
+msgid "View detail"
+msgstr ""
+
+#: templates/partials/layout-toggle-buttons.php:10
+msgid "List view"
+msgstr ""
+
+#: templates/partials/layout-toggle-buttons.php:11
+msgid "Grid view"
+msgstr ""
+
+#: templates/partials/layout-toggle-buttons.php:13
+msgid "Job list layout"
+msgstr ""

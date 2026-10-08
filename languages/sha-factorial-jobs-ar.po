@@ -1,0 +1,512 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SHA Factorial Jobs\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+msgid "SHA Factorial Jobs"
+msgstr "SHA Factorial Jobs"
+
+msgid "https://shawellness.com"
+msgstr "https://shawellness.com"
+
+msgid "Displays Factorial HR job postings for SHA Wellness (Spain and Mexico)."
+msgstr "يعرض وظائف Factorial HR لـ SHA Wellness (إسبانيا والمكسيك)."
+
+msgid "Shawellness"
+msgstr "Shawellness"
+
+msgid "Insufficient permissions."
+msgstr "صلاحيات غير كافية."
+
+msgid "Invalid region."
+msgstr "منطقة غير صالحة."
+
+msgid "Cache cleared: %d entries removed."
+msgstr "تم مسح ذاكرة التخزين المؤقت: تمت إزالة %d إدخالات."
+
+msgid "Successfully connected to Factorial."
+msgstr "تم الاتصال بـ Factorial بنجاح."
+
+msgid "Factorial Jobs"
+msgstr "Factorial Jobs"
+
+msgid "Testing connection…"
+msgstr "جارٍ اختبار الاتصال…"
+
+msgid "Connection verified"
+msgstr "تم التحقق من الاتصال"
+
+msgid "Could not connect"
+msgstr "تعذّر الاتصال"
+
+msgid "Clearing cache…"
+msgstr "جارٍ مسح ذاكرة التخزين المؤقت…"
+
+msgid "Shortcode copied"
+msgstr "تم نسخ الشورتكود"
+
+msgid "Copy"
+msgstr "نسخ"
+
+msgid "Test connection"
+msgstr "اختبار الاتصال"
+
+msgid "published job postings"
+msgstr "وظائف منشورة"
+
+msgid "API"
+msgstr "API"
+
+msgid "Restore defaults"
+msgstr "استعادة القيم الافتراضية"
+
+msgid "Restore fields"
+msgstr "استعادة الحقول"
+
+msgid "Values restored. Save changes to apply them."
+msgstr "تمت استعادة القيم. احفظ التغييرات لتطبيقها."
+
+msgid "Settings saved successfully."
+msgstr "تم حفظ الإعدادات بنجاح."
+
+msgid "OpenSSL is not available. API keys are stored with basic encoding. Enable OpenSSL in PHP for better security."
+msgstr "OpenSSL غير متاح. تُخزَّن مفاتيح API بتشفير أساسي. فعّل OpenSSL في PHP لمزيد من الأمان."
+
+msgid "Settings sections"
+msgstr "أقسام الإعدادات"
+
+msgid "Connections"
+msgstr "الاتصالات"
+
+msgid "Display"
+msgstr "العرض"
+
+msgid "Styles"
+msgstr "الأنماط"
+
+msgid "Shortcodes"
+msgstr "الشورتكودات"
+
+msgid "About"
+msgstr "حول"
+
+msgid "Cache"
+msgstr "ذاكرة التخزين المؤقت"
+
+msgid "Reduces calls to the Factorial API. Clear the cache after publishing new job postings."
+msgstr "يقلّل من طلبات API الخاصة بـ Factorial. امسح ذاكرة التخزين المؤقت بعد نشر وظائف جديدة."
+
+msgid "TTL (seconds)"
+msgstr "TTL (بالثواني)"
+
+msgid "Clear cache"
+msgstr "مسح ذاكرة التخزين المؤقت"
+
+msgid "Default shortcode values"
+msgstr "القيم الافتراضية للشورتكود"
+
+msgid "Only published job postings from Factorial are shown."
+msgstr "تُعرض فقط الوظائف المنشورة (published) في Factorial."
+
+msgid "Layout"
+msgstr "التخطيط"
+
+msgid "List"
+msgstr "قائمة"
+
+msgid "Grid"
+msgstr "شبكة"
+
+msgid "Show filters"
+msgstr "إظهار الفلاتر"
+
+msgid "Save changes"
+msgstr "حفظ التغييرات"
+
+msgid "Spain"
+msgstr "إسبانيا"
+
+msgid "Mexico"
+msgstr "المكسيك"
+
+msgid "Not tested"
+msgstr "لم يُختبَر"
+
+msgid "No API key"
+msgstr "لا يوجد مفتاح API"
+
+msgid "Label"
+msgstr "التسمية"
+
+msgid "API Key"
+msgstr "مفتاح API"
+
+msgid "Paste your Factorial API key"
+msgstr "الصق مفتاح API الخاص بـ Factorial"
+
+msgid "Show/hide"
+msgstr "إظهار/إخفاء"
+
+msgid "Leave empty to keep the current key."
+msgstr "اتركه فارغًا للاحتفاظ بالمفتاح الحالي."
+
+msgid "Active connection"
+msgstr "اتصال نشط"
+
+msgid "Job card fields"
+msgstr "حقول بطاقة الوظيفة"
+
+msgid "Enable or disable which Factorial data appears on each job posting. The title is always visible."
+msgstr "فعّل أو عطّل البيانات المعروضة من Factorial في كل وظيفة. العنوان يظهر دائمًا."
+
+msgid "Preview (3 sample job postings)"
+msgstr "معاينة (3 وظائف نموذجية)"
+
+msgid "Frontend styles"
+msgstr "أنماط الواجهة الأمامية"
+
+msgid "Customize cards, filters, and list spacing. Changes apply to listings and the detail view."
+msgstr "خصّص البطاقات والفلاتر والتباعد في القائمة. تنطبق التغييرات على القوائم وصفحة التفاصيل."
+
+msgid "Preview (filters + 3 job postings)"
+msgstr "معاينة (فلاتر + 3 وظائف)"
+
+msgid "Spain listing"
+msgstr "قائمة إسبانيا"
+
+msgid "Mexico listing"
+msgstr "قائمة المكسيك"
+
+msgid "Both regions with filters"
+msgstr "المنطقتان مع الفلاتر"
+
+msgid "Team ID (API)"
+msgstr "معرّف الفريق (API)"
+
+msgid "Location ID (API)"
+msgstr "معرّف الموقع (API)"
+
+msgid "Legal entity ID (API)"
+msgstr "معرّف الكيان القانوني (API)"
+
+msgid "Ready-to-copy shortcodes"
+msgstr "شورتكودات جاهزة للنسخ"
+
+msgid "Each job detail opens on the same page using URL parameters (?sfj_job=ID&sfj_region=es|mx). No separate shortcode is required."
+msgstr "تفتح تفاصيل كل وظيفة في نفس الصفحة باستخدام معلمات URL (?sfj_job=ID&sfj_region=es|mx). لا يلزم شورتكود منفصل."
+
+msgid "Attributes (Factorial API mapping)"
+msgstr "السمات (تعيين Factorial API)"
+
+msgid "Attribute"
+msgstr "السمة"
+
+msgid "Values"
+msgstr "القيم"
+
+msgid "Version %s"
+msgstr "الإصدار %s"
+
+msgid "Custom integration between Factorial HR and WordPress for SHA Wellness. Displays published job postings on your site via shortcodes, with configurable cache, frontend filters, and field and style customization from this panel."
+msgstr "تكامل مخصص بين Factorial HR وWordPress لـ SHA Wellness. يعرض الوظائف المنشورة في موقعك عبر الشورتكودات، مع ذاكرة تخزين مؤقت قابلة للتكوين وفلاتر في الواجهة الأمامية وتخصيص الحقول والأنماط من هذه اللوحة."
+
+msgid "Connection to the Factorial API by region."
+msgstr "الاتصال بـ Factorial API حسب المنطقة."
+
+msgid "Job listing and detail on the same page."
+msgstr "قائمة الوظائف والتفاصيل في نفس الصفحة."
+
+msgid "Configurable visible fields, layout, filters, and styles."
+msgstr "حقول مرئية وتخطيط وفلاتر وأنماط قابلة للتكوين."
+
+msgid "Developed by %1$s for %2$s."
+msgstr "طوّره %1$s لـ %2$s."
+
+msgid "No API key configured for this connection."
+msgstr "لا يوجد مفتاح API مُكوَّن لهذا الاتصال."
+
+msgid "Empty response from Factorial. Check that the API key matches the production environment."
+msgstr "استجابة فارغة من Factorial. تحقق من أن مفتاح API يطابق بيئة الإنتاج."
+
+msgid "Factorial response is not valid JSON."
+msgstr "استجابة Factorial ليست JSON صالحًا."
+
+msgid "Factorial API error."
+msgstr "خطأ في Factorial API."
+
+msgid "API key not configured."
+msgstr "مفتاح API غير مُكوَّن."
+
+msgid "This job posting is not available."
+msgstr "هذه الوظيفة غير متاحة."
+
+msgid "Invalid lookup type."
+msgstr "نوع lookup غير صالح."
+
+msgid "Accent color"
+msgstr "لون التمييز"
+
+msgid "Apply button and highlighted elements."
+msgstr "زر التقديم والعناصر البارزة."
+
+msgid "Text on accent"
+msgstr "نص على لون التمييز"
+
+msgid "Apply button text."
+msgstr "نص زر التقديم."
+
+msgid "Link color"
+msgstr "لون الروابط"
+
+msgid "View detail and back to listing."
+msgstr "عرض التفاصيل والعودة إلى القائمة."
+
+msgid "Badge background"
+msgstr "خلفية الشارة"
+
+msgid "Category and remote badge."
+msgstr "الفئة وشارة العمل عن بُعد."
+
+msgid "Badge text"
+msgstr "نص الشارة"
+
+msgid "Secondary text"
+msgstr "نص ثانوي"
+
+msgid "Meta, dates, and filters."
+msgstr "البيانات الوصفية والتواريخ والفلاتر."
+
+msgid "Container card"
+msgstr "بطاقة الحاوية"
+
+msgid "Disable to remove the box around each job posting (no border, background, or shadow)."
+msgstr "عطّل لإزالة الإطار حول كل وظيفة (بدون حدود أو خلفية أو ظل)."
+
+msgid "Card background"
+msgstr "خلفية البطاقة"
+
+msgid "Card border"
+msgstr "حدود البطاقة"
+
+msgid "Border radius"
+msgstr "نصف قطر الحدود"
+
+msgid "Card padding"
+msgstr "حشوة البطاقة"
+
+msgid "Card shadow"
+msgstr "ظل البطاقة"
+
+msgid "Gap between cards"
+msgstr "المسافة بين البطاقات"
+
+msgid "Title size"
+msgstr "حجم العنوان"
+
+msgid "Button style"
+msgstr "نمط الزر"
+
+msgid "Disable for a flat select with only a bottom border."
+msgstr "عطّل لقائمة منسدلة مسطحة بحد سفلي فقط."
+
+msgid "Label size"
+msgstr "حجم التسمية"
+
+msgid "Text above the select (Category, Workplace type…)."
+msgstr "النص فوق القائمة المنسدلة (الفئة، نمط العمل…)."
+
+msgid "Select size"
+msgstr "حجم القائمة المنسدلة"
+
+msgid "Dropdown text and padding."
+msgstr "نص القائمة المنسدلة والحشوة."
+
+msgid "Select background"
+msgstr "خلفية القائمة المنسدلة"
+
+msgid "Select border"
+msgstr "حدود القائمة المنسدلة"
+
+msgid "Label text"
+msgstr "نص التسميات"
+
+msgid "Gap between filters"
+msgstr "المسافة بين الفلاتر"
+
+msgid "Bottom margin"
+msgstr "الهامش السفلي"
+
+msgid "Space between filters and listing."
+msgstr "المسافة بين الفلاتر والقائمة."
+
+msgid "Colors"
+msgstr "الألوان"
+
+msgid "Card"
+msgstr "البطاقة"
+
+msgid "Filters"
+msgstr "الفلاتر"
+
+msgid "Spacing and typography"
+msgstr "التباعد والطباعة"
+
+msgid "Category"
+msgstr "الفئة"
+
+msgid "Badge with the professional area (Factorial enum)."
+msgstr "شارة مع المجال المهني (تعداد Factorial)."
+
+msgid "Contract type"
+msgstr "نوع العقد"
+
+msgid "Permanent, temporary, internship, etc."
+msgstr "دائم، مؤقت، تدريب، إلخ."
+
+msgid "Workplace type"
+msgstr "نمط العمل"
+
+msgid "On-site, remote, or hybrid."
+msgstr "في الموقع، عن بُعد، أو هجين."
+
+msgid "Schedule"
+msgstr "الدوام"
+
+msgid "Full-time or part-time."
+msgstr "دوام كامل أو جزئي."
+
+msgid "Remote"
+msgstr "عن بُعد"
+
+msgid "Label when the job allows remote work."
+msgstr "تسمية عندما تسمح الوظيفة بالعمل عن بُعد."
+
+msgid "Location"
+msgstr "الموقع"
+
+msgid "Name resolved from Factorial locations."
+msgstr "الاسم المستخرج من مواقع Factorial."
+
+msgid "Team"
+msgstr "الفريق"
+
+msgid "Department or team (teams lookup)."
+msgstr "القسم أو الفريق (بحث teams)."
+
+msgid "Legal entity"
+msgstr "الكيان القانوني"
+
+msgid "Useful on pages with region=\"all\"."
+msgstr "مفيد في الصفحات التي تستخدم region=\"all\"."
+
+msgid "Salary"
+msgstr "الراتب"
+
+msgid "Respects Factorial hide_salary."
+msgstr "يحترم hide_salary في Factorial."
+
+msgid "Published date"
+msgstr "تاريخ النشر"
+
+msgid "When the job posting was published."
+msgstr "متى نُشرت الوظيفة."
+
+msgid "View detail link"
+msgstr "رابط عرض التفاصيل"
+
+msgid "Only when the job posting has a description."
+msgstr "فقط عندما يكون للوظيفة وصف."
+
+msgid "Apply button"
+msgstr "زر التقديم"
+
+msgid "Public job posting URL."
+msgstr "رابط الوظيفة العام."
+
+msgid "Senior Physiotherapist"
+msgstr "أخصائي علاج طبيعي أول"
+
+msgid "Full job description with requirements, benefits, and hiring process."
+msgstr "وصف كامل للوظيفة مع المتطلبات والمزايا وعملية التوظيف."
+
+msgid "Clinical Nurse"
+msgstr "ممرض/ة سريري/ة"
+
+msgid "Clinical profile for an integrative medicine unit."
+msgstr "ملف سريري لوحدة الطب التكاملي."
+
+msgid "Sports Nutritionist"
+msgstr "أخصائي تغذية رياضية"
+
+msgid "SHA Wellness Clinic, Alicante"
+msgstr "عيادة SHA Wellness، أليكانتي"
+
+msgid "SHA Mexico, CDMX"
+msgstr "SHA المكسيك، مكسيكو سيتي"
+
+msgid "Therapies & Wellness"
+msgstr "العلاجات والعافية"
+
+msgid "Sports Nutrition"
+msgstr "التغذية الرياضية"
+
+msgid "SHA Spain"
+msgstr "SHA إسبانيا"
+
+msgid "SHA Mexico"
+msgstr "SHA المكسيك"
+
+msgid "%1$s – %2$s (%3$s)"
+msgstr "%1$s – %2$s (%3$s)"
+
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+msgid "Missing sfj_region parameter in the URL."
+msgstr "المعلمة sfj_region مفقودة في الرابط."
+
+msgid "This job posting does not belong to this page."
+msgstr "هذه الوظيفة لا تنتمي إلى هذه الصفحة."
+
+msgid "No job postings available at this time."
+msgstr "لا توجد وظائف متاحة حاليًا."
+
+msgid "Back to listing"
+msgstr "العودة إلى القائمة"
+
+msgid "Apply"
+msgstr "تقديم"
+
+msgid "No job postings available."
+msgstr "لا توجد وظائف متاحة."
+
+msgid "Region"
+msgstr "المنطقة"
+
+msgid "Area / Department"
+msgstr "المجال / القسم"
+
+msgid "All"
+msgstr "الكل"
+
+msgid "Actions"
+msgstr "إجراءات"
+
+msgid "Clear filters"
+msgstr "مسح الفلاتر"
+
+msgid "View detail"
+msgstr "عرض التفاصيل"
+
+msgid "List view"
+msgstr "عرض القائمة"
+
+msgid "Grid view"
+msgstr "عرض الشبكة"
+
+msgid "Job list layout"
+msgstr "تخطيط قائمة الوظائف"

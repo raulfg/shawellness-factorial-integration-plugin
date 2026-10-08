@@ -1,0 +1,512 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SHA Factorial Jobs\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "SHA Factorial Jobs"
+msgstr "SHA Factorial Jobs"
+
+msgid "https://shawellness.com"
+msgstr "https://shawellness.com"
+
+msgid "Displays Factorial HR job postings for SHA Wellness (Spain and Mexico)."
+msgstr "Affiche les offres Factorial HR pour SHA Wellness (Espagne et Mexique)."
+
+msgid "Shawellness"
+msgstr "Shawellness"
+
+msgid "Insufficient permissions."
+msgstr "Permissions insuffisantes."
+
+msgid "Invalid region."
+msgstr "Région non valide."
+
+msgid "Cache cleared: %d entries removed."
+msgstr "Cache vidé : %d entrées supprimées."
+
+msgid "Successfully connected to Factorial."
+msgstr "Connexion à Factorial réussie."
+
+msgid "Factorial Jobs"
+msgstr "Factorial Jobs"
+
+msgid "Testing connection…"
+msgstr "Test de connexion…"
+
+msgid "Connection verified"
+msgstr "Connexion vérifiée"
+
+msgid "Could not connect"
+msgstr "Connexion impossible"
+
+msgid "Clearing cache…"
+msgstr "Vidage du cache…"
+
+msgid "Shortcode copied"
+msgstr "Shortcode copié"
+
+msgid "Copy"
+msgstr "Copier"
+
+msgid "Test connection"
+msgstr "Tester la connexion"
+
+msgid "published job postings"
+msgstr "offres publiées"
+
+msgid "API"
+msgstr "API"
+
+msgid "Restore defaults"
+msgstr "Restaurer les valeurs par défaut"
+
+msgid "Restore fields"
+msgstr "Restaurer les champs"
+
+msgid "Values restored. Save changes to apply them."
+msgstr "Valeurs restaurées. Enregistrez les modifications pour les appliquer."
+
+msgid "Settings saved successfully."
+msgstr "Paramètres enregistrés avec succès."
+
+msgid "OpenSSL is not available. API keys are stored with basic encoding. Enable OpenSSL in PHP for better security."
+msgstr "OpenSSL n’est pas disponible. Les clés API sont stockées avec un encodage basique. Activez OpenSSL dans PHP pour plus de sécurité."
+
+msgid "Settings sections"
+msgstr "Sections des paramètres"
+
+msgid "Connections"
+msgstr "Connexions"
+
+msgid "Display"
+msgstr "Affichage"
+
+msgid "Styles"
+msgstr "Styles"
+
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+msgid "About"
+msgstr "À propos"
+
+msgid "Cache"
+msgstr "Cache"
+
+msgid "Reduces calls to the Factorial API. Clear the cache after publishing new job postings."
+msgstr "Réduit les appels à l’API Factorial. Videz le cache après la publication de nouvelles offres."
+
+msgid "TTL (seconds)"
+msgstr "TTL (secondes)"
+
+msgid "Clear cache"
+msgstr "Vider le cache"
+
+msgid "Default shortcode values"
+msgstr "Valeurs par défaut des shortcodes"
+
+msgid "Only published job postings from Factorial are shown."
+msgstr "Seules les offres publiées (published) dans Factorial sont affichées."
+
+msgid "Layout"
+msgstr "Mise en page"
+
+msgid "List"
+msgstr "Liste"
+
+msgid "Grid"
+msgstr "Grille"
+
+msgid "Show filters"
+msgstr "Afficher les filtres"
+
+msgid "Save changes"
+msgstr "Enregistrer les modifications"
+
+msgid "Spain"
+msgstr "Espagne"
+
+msgid "Mexico"
+msgstr "Mexique"
+
+msgid "Not tested"
+msgstr "Non testé"
+
+msgid "No API key"
+msgstr "Aucune clé API"
+
+msgid "Label"
+msgstr "Libellé"
+
+msgid "API Key"
+msgstr "Clé API"
+
+msgid "Paste your Factorial API key"
+msgstr "Collez votre clé API Factorial"
+
+msgid "Show/hide"
+msgstr "Afficher/masquer"
+
+msgid "Leave empty to keep the current key."
+msgstr "Laissez vide pour conserver la clé actuelle."
+
+msgid "Active connection"
+msgstr "Connexion active"
+
+msgid "Job card fields"
+msgstr "Champs de la fiche d’offre"
+
+msgid "Enable or disable which Factorial data appears on each job posting. The title is always visible."
+msgstr "Activez ou désactivez les données Factorial affichées sur chaque offre. Le titre est toujours visible."
+
+msgid "Preview (3 sample job postings)"
+msgstr "Aperçu (3 offres d’exemple)"
+
+msgid "Frontend styles"
+msgstr "Styles du frontend"
+
+msgid "Customize cards, filters, and list spacing. Changes apply to listings and the detail view."
+msgstr "Personnalisez les cartes, les filtres et l’espacement de la liste. Les modifications s’appliquent aux listes et à la vue détail."
+
+msgid "Preview (filters + 3 job postings)"
+msgstr "Aperçu (filtres + 3 offres)"
+
+msgid "Spain listing"
+msgstr "Liste Espagne"
+
+msgid "Mexico listing"
+msgstr "Liste Mexique"
+
+msgid "Both regions with filters"
+msgstr "Les deux régions avec filtres"
+
+msgid "Team ID (API)"
+msgstr "ID d’équipe (API)"
+
+msgid "Location ID (API)"
+msgstr "ID de lieu (API)"
+
+msgid "Legal entity ID (API)"
+msgstr "ID d’entité légale (API)"
+
+msgid "Ready-to-copy shortcodes"
+msgstr "Shortcodes prêts à copier"
+
+msgid "Each job detail opens on the same page using URL parameters (?sfj_job=ID&sfj_region=es|mx). No separate shortcode is required."
+msgstr "Le détail de chaque offre s’ouvre sur la même page via des paramètres d’URL (?sfj_job=ID&sfj_region=es|mx). Aucun shortcode séparé n’est nécessaire."
+
+msgid "Attributes (Factorial API mapping)"
+msgstr "Attributs (mapping Factorial API)"
+
+msgid "Attribute"
+msgstr "Attribut"
+
+msgid "Values"
+msgstr "Valeurs"
+
+msgid "Version %s"
+msgstr "Version %s"
+
+msgid "Custom integration between Factorial HR and WordPress for SHA Wellness. Displays published job postings on your site via shortcodes, with configurable cache, frontend filters, and field and style customization from this panel."
+msgstr "Intégration sur mesure entre Factorial HR et WordPress pour SHA Wellness. Affiche les offres publiées sur votre site via des shortcodes, avec cache configurable, filtres frontend et personnalisation des champs et styles depuis ce panneau."
+
+msgid "Connection to the Factorial API by region."
+msgstr "Connexion à l’API Factorial par région."
+
+msgid "Job listing and detail on the same page."
+msgstr "Liste et détail des offres sur la même page."
+
+msgid "Configurable visible fields, layout, filters, and styles."
+msgstr "Champs visibles, mise en page, filtres et styles configurables."
+
+msgid "Developed by %1$s for %2$s."
+msgstr "Développé par %1$s pour %2$s."
+
+msgid "No API key configured for this connection."
+msgstr "Aucune clé API configurée pour cette connexion."
+
+msgid "Empty response from Factorial. Check that the API key matches the production environment."
+msgstr "Réponse vide de Factorial. Vérifiez que la clé API correspond à l’environnement de production."
+
+msgid "Factorial response is not valid JSON."
+msgstr "La réponse de Factorial n’est pas un JSON valide."
+
+msgid "Factorial API error."
+msgstr "Erreur de l’API Factorial."
+
+msgid "API key not configured."
+msgstr "Clé API non configurée."
+
+msgid "This job posting is not available."
+msgstr "Cette offre n’est pas disponible."
+
+msgid "Invalid lookup type."
+msgstr "Type de lookup non valide."
+
+msgid "Accent color"
+msgstr "Couleur d’accent"
+
+msgid "Apply button and highlighted elements."
+msgstr "Bouton postuler et éléments mis en avant."
+
+msgid "Text on accent"
+msgstr "Texte sur l’accent"
+
+msgid "Apply button text."
+msgstr "Texte du bouton postuler."
+
+msgid "Link color"
+msgstr "Couleur des liens"
+
+msgid "View detail and back to listing."
+msgstr "Voir le détail et retour à la liste."
+
+msgid "Badge background"
+msgstr "Fond des badges"
+
+msgid "Category and remote badge."
+msgstr "Catégorie et badge télétravail."
+
+msgid "Badge text"
+msgstr "Texte des badges"
+
+msgid "Secondary text"
+msgstr "Texte secondaire"
+
+msgid "Meta, dates, and filters."
+msgstr "Méta, dates et filtres."
+
+msgid "Container card"
+msgstr "Carte conteneur"
+
+msgid "Disable to remove the box around each job posting (no border, background, or shadow)."
+msgstr "Désactivez pour retirer l’encadré autour de chaque offre (sans bordure, fond ni ombre)."
+
+msgid "Card background"
+msgstr "Fond de la carte"
+
+msgid "Card border"
+msgstr "Bordure de la carte"
+
+msgid "Border radius"
+msgstr "Rayon des bords"
+
+msgid "Card padding"
+msgstr "Padding de la carte"
+
+msgid "Card shadow"
+msgstr "Ombre des cartes"
+
+msgid "Gap between cards"
+msgstr "Espacement entre les cartes"
+
+msgid "Title size"
+msgstr "Taille du titre"
+
+msgid "Button style"
+msgstr "Style bouton"
+
+msgid "Disable for a flat select with only a bottom border."
+msgstr "Désactivez pour un select plat avec seulement une bordure inférieure."
+
+msgid "Label size"
+msgstr "Taille du libellé"
+
+msgid "Text above the select (Category, Workplace type…)."
+msgstr "Texte au-dessus du select (Catégorie, Mode de travail…)."
+
+msgid "Select size"
+msgstr "Taille du select"
+
+msgid "Dropdown text and padding."
+msgstr "Texte et padding du menu déroulant."
+
+msgid "Select background"
+msgstr "Fond du select"
+
+msgid "Select border"
+msgstr "Bordure du select"
+
+msgid "Label text"
+msgstr "Texte des libellés"
+
+msgid "Gap between filters"
+msgstr "Espacement entre les filtres"
+
+msgid "Bottom margin"
+msgstr "Marge inférieure"
+
+msgid "Space between filters and listing."
+msgstr "Espace entre les filtres et la liste."
+
+msgid "Colors"
+msgstr "Couleurs"
+
+msgid "Card"
+msgstr "Carte"
+
+msgid "Filters"
+msgstr "Filtres"
+
+msgid "Spacing and typography"
+msgstr "Espacement et typographie"
+
+msgid "Category"
+msgstr "Catégorie"
+
+msgid "Badge with the professional area (Factorial enum)."
+msgstr "Badge avec le domaine professionnel (enum Factorial)."
+
+msgid "Contract type"
+msgstr "Type de contrat"
+
+msgid "Permanent, temporary, internship, etc."
+msgstr "CDI, CDD, stage, etc."
+
+msgid "Workplace type"
+msgstr "Mode de travail"
+
+msgid "On-site, remote, or hybrid."
+msgstr "Sur site, à distance ou hybride."
+
+msgid "Schedule"
+msgstr "Horaire"
+
+msgid "Full-time or part-time."
+msgstr "Temps plein ou partiel."
+
+msgid "Remote"
+msgstr "À distance"
+
+msgid "Label when the job allows remote work."
+msgstr "Badge si l’offre autorise le télétravail."
+
+msgid "Location"
+msgstr "Lieu"
+
+msgid "Name resolved from Factorial locations."
+msgstr "Nom résolu depuis les locations Factorial."
+
+msgid "Team"
+msgstr "Équipe"
+
+msgid "Department or team (teams lookup)."
+msgstr "Département ou équipe (lookup teams)."
+
+msgid "Legal entity"
+msgstr "Entité légale"
+
+msgid "Useful on pages with region=\"all\"."
+msgstr "Utile sur les pages avec region=\"all\"."
+
+msgid "Salary"
+msgstr "Salaire"
+
+msgid "Respects Factorial hide_salary."
+msgstr "Respecte hide_salary de Factorial."
+
+msgid "Published date"
+msgstr "Date de publication"
+
+msgid "When the job posting was published."
+msgstr "Date de publication de l’offre."
+
+msgid "View detail link"
+msgstr "Lien voir le détail"
+
+msgid "Only when the job posting has a description."
+msgstr "Uniquement si l’offre a une description."
+
+msgid "Apply button"
+msgstr "Bouton postuler"
+
+msgid "Public job posting URL."
+msgstr "URL publique de l’offre."
+
+msgid "Senior Physiotherapist"
+msgstr "Kinésithérapeute senior"
+
+msgid "Full job description with requirements, benefits, and hiring process."
+msgstr "Description complète de l’offre avec exigences, avantages et processus de recrutement."
+
+msgid "Clinical Nurse"
+msgstr "Infirmier/ère clinique"
+
+msgid "Clinical profile for an integrative medicine unit."
+msgstr "Profil clinique pour une unité de médecine intégrative."
+
+msgid "Sports Nutritionist"
+msgstr "Nutritionniste sportif"
+
+msgid "SHA Wellness Clinic, Alicante"
+msgstr "SHA Wellness Clinic, Alicante"
+
+msgid "SHA Mexico, CDMX"
+msgstr "SHA Mexique, CDMX"
+
+msgid "Therapies & Wellness"
+msgstr "Thérapies & Bien-être"
+
+msgid "Sports Nutrition"
+msgstr "Nutrition sportive"
+
+msgid "SHA Spain"
+msgstr "SHA Espagne"
+
+msgid "SHA Mexico"
+msgstr "SHA Mexique"
+
+msgid "%1$s – %2$s (%3$s)"
+msgstr "%1$s – %2$s (%3$s)"
+
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+msgid "Missing sfj_region parameter in the URL."
+msgstr "Paramètre sfj_region manquant dans l’URL."
+
+msgid "This job posting does not belong to this page."
+msgstr "Cette offre n’appartient pas à cette page."
+
+msgid "No job postings available at this time."
+msgstr "Aucune offre disponible pour le moment."
+
+msgid "Back to listing"
+msgstr "Retour à la liste"
+
+msgid "Apply"
+msgstr "Postuler"
+
+msgid "No job postings available."
+msgstr "Aucune offre d’emploi disponible."
+
+msgid "Region"
+msgstr "Région"
+
+msgid "Area / Department"
+msgstr "Domaine / Département"
+
+msgid "All"
+msgstr "Tous"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "Clear filters"
+msgstr "Effacer les filtres"
+
+msgid "View detail"
+msgstr "Voir le détail"
+
+msgid "List view"
+msgstr "Vue liste"
+
+msgid "Grid view"
+msgstr "Vue grille"
+
+msgid "Job list layout"
+msgstr "Disposition de la liste d'offres"
